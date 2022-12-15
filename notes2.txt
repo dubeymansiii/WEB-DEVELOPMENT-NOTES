@@ -1,0 +1,1 @@
+hr tag can be given attributes like size,color,noshade
