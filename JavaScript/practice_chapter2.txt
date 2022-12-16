@@ -1,0 +1,37 @@
+1.  Use logical operators to find whether the age of a person lies between 10 and 20?
+Ans. let age = prompt("ENTER YOUR AGE");
+        if(age>=10 && age <=20)
+        console.log("yes, it does");
+
+2. Demonstrate the use of Switch case in JS.
+ let fruit = prompt("Enter your favorite fruit name to know the cost of it ");
+ switch(fruit)
+{
+case 'Apple':
+console.log( " cost is 100 per kg.");
+break;
+case 'Orange':
+console.log(" cost is 120 per kg. ");
+break;
+case 'Grapes':
+console.log(" cost is 80 per kg. ");
+break;
+default:
+console.log("Sorry, we don't sell this fruit");
+}
+
+3. Write a JS program to find whether a number is divisible by 2 and 3 .
+Ans. 
+let number= prompt("ENTER A NUMBER");
+number=Number.parseInt(number);
+if(number%2==0 && number%3==0)
+console.log("number is divisible by both 2 and 3");
+else if(number %2==0 || number%3==0)
+console.log("number is divisible by either 2 or 3");
+else
+console.log("Number not divisible");
+
+
+
+
+        
