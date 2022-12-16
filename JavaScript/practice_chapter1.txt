@@ -1,0 +1,25 @@
+1. Create a variable of type String and add a number to it.
+Ans.   let a = "Today is";
+          a +=11;
+          console.log(a);
+
+2. Use Typeof operator to find the datatype of the string in last operation.
+Ans.  console.log(typeof(a));
+
+3.  Create a const object in javascript. Cn you change it to hold a number later?
+Ans.  const item ={
+              name: "Ramesh",
+              age: "34",
+              job: "Software Engineer"
+     };
+console.log(item['age']);
+
+4.   Try to add a new key to the const object in q3 . Were you able to do it?
+Ans. item['friend']="Suresh;
+          console.log(item['friend']);
+
+5.  Write a JS program to create a word meaning dictionary of 5 words.
+Ans .  const dictionary={
+   //Write 5 words from dic as key value pairs.
+}
+console.log(dictionary);
